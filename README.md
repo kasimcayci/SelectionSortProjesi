@@ -1,6 +1,6 @@
 # SELECTION SORT PROJESİ
 Veri Yapıları ve Algoritmalar Dersi Selection Sort Projesi
-# Proje Hakkında
+## Proje Hakkında
 Bu proje markdown yazı dili kullanılarak yazılmıştır. Projede iki ayrı sayı dizisinin selection sort yöntemiyle sıralanması gerçekleştirilmiştir.
 
 Verilen ilk dizinin sıralama aşamaları, Big O gösterimi ve dizide yer alan 18 sayısına göre Time Complexity'si verilmiştir.
@@ -9,7 +9,7 @@ Verilen ilk dizinin sıralama aşamaları, Big O gösterimi ve dizide yer alan 1
 
 ## Proje 1 Insertion sort
 
-#### ilk sayı dizisi
+### ilk sayı dizisi
 22,27,16,2,18,6 dizisinin sıralanması aşamaları
 
 i. Öncelikle ilk sıradaki veri ile dizideki en küçük veri yer değiştirir. Yani 22 ile 2 yer değiştirecek.
@@ -33,7 +33,7 @@ v. Dizimizde dördüncü en küçük sayı da yerine geçti. dizimiz 2 ,6, 16, 1
 Dizimiz 2, 6, 16, 18, 22, 27    1 tane veri tarandı
 
 
-## Big-O gösterimi 
+#### Big-O gösterimi 
 
 i. aşama n tane veri tarandı   bu dizide 6 veri var
 ii. aşama n-1 tane veri tarandı   yeni dizide 5 veri var
@@ -43,14 +43,14 @@ v. aşama 1 tane veri tarandı   yeni dizide 2 veri vardı.
 
 **O(n^2)**
 
-## Time Complexity
+#### Time Complexity
 
 Dizimiz 2, 6, 16, 18, 22, 27
 
 18 sayısı aradığımız dizinin ortası sayılabilecek bir yer olan 4. sırada olduğundan dolayı ***average case*** olarak kabul edilse de kendisinden sonra işlem aşamalarında son iki sayının değerlendirilmesi kaldığı için benim bakış açıma göre ***worst case*** olarak değerlendirilmelidir.
 
 
-#### ikinci sayı dizisi
+### ikinci sayı dizisi
 7,3,5,8,2,9,4,15,6 dizisinin selection sort'a göre sıralama aşamaları
 
 i. ilk önce birinci sıradaki değer ile bütün veriler taranıp saptanan en küçük değer yer değiştirir. Yani 7 ile 2 yer değiştirecek.
